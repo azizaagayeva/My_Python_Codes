@@ -1,7 +1,7 @@
 import datetime
 
 first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
+last_name = input("Enter your - last name: ")
 
 while True:
     birth_date = input("Date of birth (DD.MM.YYYY): ")
@@ -25,3 +25,4 @@ if days_left == 0:
     print("Happy Birthday!yayayayyya")
 else:
     print(f"Next birthday in {days_left} day(s).")
+    
